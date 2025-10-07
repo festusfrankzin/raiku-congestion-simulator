@@ -393,7 +393,7 @@ function App() {
 
           <div className="mt-8 text-center">
             <p className="text-gray-600 font-mono text-xs tracking-wider">
-              POWERED BY RAIKU • REAL-TIME NETWORK INTELLIGENCE
+              POWERED BY RAIKU • RIMURU TEMPEST
             </p>
           </div>
         </div>
@@ -403,3 +403,4 @@ function App() {
 }
 
 export default App;
+
