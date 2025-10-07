@@ -18,7 +18,7 @@ const criticalThreshold = 85;
 useEffect(() => {
 if (!isRunning) return;
 
-```
+
 const interval = setInterval(() => {
   setTps(prev => {
     let newTps = prev + (Math.random() * 400 - 150);
@@ -67,7 +67,7 @@ const interval = setInterval(() => {
 }, 100);
 
 return () => clearInterval(interval);
-```
+
 
 }, [isRunning, tps, raikuActive, raikuIntervention]);
 
@@ -113,7 +113,6 @@ return (
 {/* Animated background grid */}
 <div className="fixed inset-0 bg-[linear-gradient(rgba(16,185,129,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(16,185,129,0.05)_1px,transparent_1px)] bg-[size:50px_50px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000,transparent)]" />
 
-```
   <div className="relative z-10 p-4 md:p-8">
     <div className="max-w-7xl mx-auto">
       {/* Header with unique design */}
@@ -414,9 +413,10 @@ return (
     </div>
   </div>
 </div>
-```
+
 
 );
 };
 
 export default App;
+
